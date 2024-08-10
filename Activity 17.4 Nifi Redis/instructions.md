@@ -1,3 +1,9 @@
+In this activity, you will use the Redis and NiFi installations from Mini-Lesson 17.5 to create an ETL pipeline that will populate your database with the current date and time. 
+
+`docker network create NifiNetwork`
+
+`docker run --name nificontainer -p 8080:8080 --network NifiNetwork -d apache/nifi:1.13.2`
+
 In a Terminal window, type the correct commands for your operating system to start Redis by following the steps in Mini-Lesson 17.5.
 
 What Does Installing from Source Mean?
