@@ -1,4 +1,4 @@
-In this activity, you will use NiFi to perform a data load into a MySQL database. You will be using real earthquake data from USGS Links to an external site.and storing it within your database. This activity uses content from Videos 17.4, 17.5, 17.6, and 17.7, and you will need to follow along with the videos to create two containers before beginning this activity.
+In this activity, you will use NiFi to perform a csv data load into a MySQL database. You will be using real earthquake data from USGS Links to an external site.and storing it within your database. This activity uses content from Videos 17.4, 17.5, 17.6, and 17.7, and you will need to follow along with the videos to create two containers before beginning this activity.
 
 Before you begin the steps of the activity below, please be sure you have your two containers running within Docker and that they are connected to the same network; one container is for the NiFi server and one is for MySQL.
 `docker network create NifiNetwork`

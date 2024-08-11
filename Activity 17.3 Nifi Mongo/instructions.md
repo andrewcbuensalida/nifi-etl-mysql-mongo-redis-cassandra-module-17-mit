@@ -1,3 +1,7 @@
+In this activity, you will apply the knowledge from Mini-Lesson 17.4 to create a NiFi workflow to read data from a MongoDB database and produce output files.
+
+Before you begin this activity, ensure you have a NiFi server running inside a Docker container. You will also need a MongoDB server running inside a Docker container. Both the NiFi server and the MongoDB server need to be on the same Docker network.
+
 To complete this activity, follow these steps:
 
 Start the MongoDB and NiFi Docker containers running on the same network. Provide a screenshot of your Docker desktop to show the MongoDB and NiFi Docker containers running.

@@ -1,3 +1,5 @@
+# Create a NiFi workflow to process an Excel file and convert it to a CSV file.
+
 To complete this activity, follow these steps:
 
 Before completing this activity, ensure that you have a Docker network, NifiNetwork, running on your machine and that a NiFi container, nificontainer, is connected to it and running.
@@ -17,7 +19,9 @@ Create a new process group and name it Activity17.1. Provide a screenshot to sho
 
 Double-click the Activity17.1 process group. Inside the process group, drag and drop a new processor, ConvertExcelToCSVProcessor. Provide a screenshot to show that you successfully added the ConvertExcelToCSVProcessor processor to the NiFi canvas.
 
-Modify the properties for the ConvertExcelToCSVProcessor processor to process the Activity17_1.xlsx file as it is explained in Mini-Lesson 17.2. Provide a screenshot to show that you configured the properties for the ConvertExcelToCSVProcessor processor correctly.
+Modify the properties for the ConvertExcelToCSVProcessor processor to process the Activity17_1.xlsx file as it is explained in Mini-Lesson 17.2. 
+In the PROPERTIES tab, set the Sheets to Extract field equal to Activity17_1.
+Provide a screenshot to show that you configured the properties for the ConvertExcelToCSVProcessor processor correctly.
 
 Add a GetFile processor. Provide a screenshot to show that you successfully added the GetFile processor to the NiFi canvas.
 Configure the SCHEDULING and PROPERTIES tabs in the GetFile processor to get the Excel file for processing as it is explained in Mini-Lesson 17.2. Provide two screenshots. The first screenshot should show that you set the values in the PROPERTIES tab correctly. The second screenshot should show that you updated the scheduling time in the SCHEDULING tab correctly.

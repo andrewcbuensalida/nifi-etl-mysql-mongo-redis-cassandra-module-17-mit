@@ -1,4 +1,4 @@
-In this activity, you will use the Redis and NiFi installations from Mini-Lesson 17.5 to create an ETL pipeline that will populate your database with the current date and time. 
+In this activity, you will use the Redis and NiFi installations from Mini-Lesson 17.5 to create an ETL pipeline that will populate your redis database with the current date and time from nifi. 
 
 `docker network create NifiNetwork`
 
